@@ -17,7 +17,7 @@ h2 {
 .container {
   max-width: 400px;
   margin: 60px auto;
-  background: rgba(48, 98, 48, 0.4);
+  background: rgba(48, 98, 48, 0.6);
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
@@ -29,7 +29,7 @@ select {
   font-size: 18px;
   font-weight: 600;
   border-radius: 4px;
-  border: 2px dotted rgb(15, 56, 15);
+  border: 1px dotted rgba(15, 56, 15, 0.8);
   padding: 10px;
   font-family: "Handjet", cursive;
   background-color: transparent;
@@ -40,7 +40,7 @@ option {
   font-weight: 600;
   border-radius: 4px;
   border: 1px dotted rgb(15, 56, 15);
-  background-color: rgba(48, 98, 48, 0.4);
+  background-color: rgba(112, 152, 28);
 }
 .city {
   display: flex;
@@ -73,5 +73,17 @@ option {
 
 footer {
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #0f380f;
+}
+a {
+  color: #0f380f;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a:visited {
+  color: #70981c;
 }
