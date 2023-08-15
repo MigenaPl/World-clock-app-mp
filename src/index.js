@@ -20,6 +20,17 @@ function updateTime() {
   tokyoTimeElement.innerHTML = tkLocalTime.format(
     "hh:mm:ss [<small>]A[</small>]"
   );
+
+  //SGP
+  let singaporeElement = document.querySelector("#singapore");
+  let singaporeDateElement = singaporeElement.querySelector(".date");
+  let singaporeTimeElement = singaporeElement.querySelector(".time");
+  let sgLocalTime = moment().tz("Asia/Singapore");
+
+  singaporeDateElement.innerHTML = sgLocalTime.format("MMMM Do YYYY");
+  singaporeTimeElement.innerHTML = sgLocalTime.format(
+    "hh:mm:ss [<small>]A[</small>]"
+  );
 }
 
 //dropdown select
