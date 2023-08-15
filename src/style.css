@@ -17,7 +17,7 @@ h2 {
 .container {
   max-width: 400px;
   margin: 60px auto;
-  background: rgba(48, 98, 48, 0.6);
+  background: rgba(48, 98, 48, 0.4);
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
@@ -73,17 +73,18 @@ option {
 
 footer {
   font-size: 18px;
-  color: #0f380f;
+  color: #5b8623;
 }
 a {
   color: #0f380f;
   text-decoration: none;
   transition: all 150ms ease-in-out;
+  font-weight: 500;
 }
 a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 a:visited {
-  color: #70981c;
+  color: #0f380f;
 }
