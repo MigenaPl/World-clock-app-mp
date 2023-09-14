@@ -1,61 +1,47 @@
 body {
   text-align: center;
-  font-family: sans-serif;
-  background-color: #f9f7fe;
+  font-family: "Press Start 2P", cursive;
+  background-color: #9bbc0f;
+  color: #0f380f;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 14px;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 400px;
   margin: 60px auto;
-  background: white;
+  background: rgba(48, 98, 48, 0.4);
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
 }
 
-.add-city-input {
-  font-size: 18px;
-  border-radius: 4px;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  width: 75%;
-}
-.add-button {
-  font-size: 18px;
-  border-radius: 4px;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  width: 20%;
-}
 select {
   display: block;
   width: 100%;
-  font-size: 18px;
+  font-size: 8px;
+  font-weight: 400;
   border-radius: 4px;
+  border: 1px dotted rgba(15, 56, 15, 0.8);
   padding: 10px;
-  margin: 10px auto;
   font-family: "Press Start 2P", cursive;
   background-color: transparent;
   color: #0f380f;
 }
 option {
   font-size: 8px;
-  font-weight: thin;
+  font-weight: 500;
   border-radius: 4px;
   border: 1px dotted rgb(15, 56, 15);
   background-color: rgba(112, 152, 28);
-  line-height: 1.5;
 }
-
 .city {
   display: flex;
   margin: 10px 0;
@@ -70,23 +56,21 @@ option {
 }
 
 .date {
-  opacity: 0.7;
+  font-size: 8px;
+  font-weight: 500;
 }
 
 .time {
-  font-size: 48px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .time small {
-  font-size: 24px;
+  font-size: 8px;
   vertical-align: top;
-  line-height: 48px;
 }
 
 footer {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
   font-size: 8px;
   color: #5b8623;
 }
@@ -95,6 +79,7 @@ a {
   text-decoration: none;
   transition: all 150ms ease-in-out;
   font-weight: 500;
+  font-size: 8px;
 }
 a:hover {
   cursor: pointer;
