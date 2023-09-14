@@ -42,7 +42,21 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+<<<<<<< HEAD
   margin: 10px auto;
+=======
+  font-family: "Press Start 2P", cursive;
+  background-color: transparent;
+  color: #0f380f;
+}
+option {
+  font-size: 8px;
+  font-weight: thin;
+  border-radius: 4px;
+  border: 1px dotted rgb(15, 56, 15);
+  background-color: rgba(112, 152, 28);
+  line-height: 1.5;
+>>>>>>> parent of 2552f06 (finishing touches)
 }
 
 .city {
@@ -74,6 +88,24 @@ select {
 }
 
 footer {
+<<<<<<< HEAD
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
+=======
+  font-size: 8px;
+  color: #5b8623;
+}
+a {
+  color: #0f380f;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  font-weight: 500;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a:visited {
+  color: #0f380f;
+>>>>>>> parent of 2552f06 (finishing touches)
 }
